@@ -1,0 +1,23 @@
+# camera_params.yaml — Calibracion monocular (CapyTown)
+# Generado por calibrate_camera.py · curso Yahboom 08-1
+# K = [[fx,0,cx],[0,fy,cy],[0,0,1]] · dist = [k1,k2,p1,p2,k3]
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [417.958046, 0.0, 361.527518,
+         0.0, 420.002745, 242.020245,
+         0.0, 0.0, 1.0]
+fx: 417.958046
+fy: 420.002745
+cx: 361.527518
+cy: 242.020245
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.235153, 0.296523, 0.012538, 0.026182, -0.186077]
+image_width: 640
+image_height: 480
+reprojection_error_px: 0.1879
+board_inner_corners: [9, 6]
+square_size_m: 0.0250
+num_views: 11
